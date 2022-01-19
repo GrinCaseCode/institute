@@ -626,7 +626,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.billbord__wrap {
-		margin: 0 -15px;
+		margin: 0 -6px;
 	}
 	.slider-billbord__title, .slick-current .slider-billbord__title {
 		font-size: 13px;
