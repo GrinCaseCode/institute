@@ -173,6 +173,9 @@
 .fixed .header-bottom__buttons {
     margin-left: 20px;
 }
+.list-social li {
+    margin-right: 29px;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -276,6 +279,9 @@
 	.logo-menu {
 		margin-right: 15px;
 	}
+	.list-social li {
+    margin-right: 22px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -531,6 +537,14 @@
 	 .menu-main__title:hover {
 	 	color: #fff;
 	}
+	.list-social li {
+    margin-right: 28px;
+}
+.list-social {
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
 }
 
 /* Small Devices, Tablets */
