@@ -662,6 +662,16 @@
 .about {
 	padding-bottom: 25px;
 }
+.prev_billbord {
+    left: 10%;
+}
+.next_billbord {
+    right: 10%;
+}
+.form-search input:focus {
+    width: calc(100vw - 45px);
+    max-width: 400px;
+    }
 }
 
 /* Custom, iPhone Retina */
