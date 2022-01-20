@@ -412,12 +412,7 @@
 	.fixed .btn-header_eye {
 		display: flex;
 	}
-	.fixed .btn-header_user i:nth-child(1) {
-		display: inline-block;
-	}
-	.fixed .btn-header_user i:nth-child(2) {
-		display: none;
-	}
+
 	.fixed .language-list {
 		visibility: visible;
 		opacity: 1;

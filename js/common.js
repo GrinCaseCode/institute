@@ -1,31 +1,36 @@
 $(document).ready(function() {
 
+	/*animate*/
+	new WOW().init();
+
+
+
 	var rev = $('.rev_slider');
-rev.on('init', function(event, slick, currentSlide) {
-  var
-    cur = $(slick.$slides[slick.currentSlide]),
-    next = cur.next(),
-    next2 = cur.next().next(),
-    prev = cur.prev(),
-    prev2 = cur.prev().prev();
-  prev.addClass('slick-sprev');
-  next.addClass('slick-snext');  
-  prev2.addClass('slick-sprev2');
-  next2.addClass('slick-snext2');  
-  cur.removeClass('slick-snext').removeClass('slick-sprev').removeClass('slick-snext2').removeClass('slick-sprev2');
-  slick.$prev = prev;
-  slick.$next = next;
-}).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-  console.log('beforeChange');
-  var
-    cur = $(slick.$slides[nextSlide]);
-  console.log(slick.$prev, slick.$next);
-  slick.$prev.removeClass('slick-sprev');
-  slick.$next.removeClass('slick-snext');
-  slick.$prev.prev().removeClass('slick-sprev2');
-  slick.$next.next().removeClass('slick-snext2');
-  next = cur.next(),  
-  prev = cur.prev();
+	rev.on('init', function(event, slick, currentSlide) {
+		var
+		cur = $(slick.$slides[slick.currentSlide]),
+		next = cur.next(),
+		next2 = cur.next().next(),
+		prev = cur.prev(),
+		prev2 = cur.prev().prev();
+		prev.addClass('slick-sprev');
+		next.addClass('slick-snext');  
+		prev2.addClass('slick-sprev2');
+		next2.addClass('slick-snext2');  
+		cur.removeClass('slick-snext').removeClass('slick-sprev').removeClass('slick-snext2').removeClass('slick-sprev2');
+		slick.$prev = prev;
+		slick.$next = next;
+	}).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+		console.log('beforeChange');
+		var
+		cur = $(slick.$slides[nextSlide]);
+		console.log(slick.$prev, slick.$next);
+		slick.$prev.removeClass('slick-sprev');
+		slick.$next.removeClass('slick-snext');
+		slick.$prev.prev().removeClass('slick-sprev2');
+		slick.$next.next().removeClass('slick-snext2');
+		next = cur.next(),  
+		prev = cur.prev();
   //prev2.prev().prev();
   //next2.next().next();
   prev.addClass('slick-sprev');
@@ -37,25 +42,27 @@ rev.on('init', function(event, slick, currentSlide) {
   cur.removeClass('slick-next').removeClass('slick-sprev').removeClass('slick-next2').removeClass('slick-sprev2');
 });
 
-rev.slick({
-  speed: 1000,
-  arrows: true,
-  dots: false,
-  focusOnSelect: true,
-  prevArrow: '<button class="arrow-billbord prev_billbord"> <i class="fal fa-long-arrow-left"></i></button>',
-  nextArrow: '<button class="arrow-billbord next_billbord"> <i class="fal fa-long-arrow-right"></i></button>',
-  infinite: true,
-  centerMode: true,
-  slidesPerRow: 1,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  centerPadding: '0',
-  swipe: true,
-  customPaging: function(slider, i) {
-    return '';
-  },
-  /*infinite: false,*/
-});
+	rev.slick({
+		speed: 1000,
+		arrows: true,
+		dots: false,
+		focusOnSelect: true,
+		prevArrow: '<button class="arrow-billbord prev_billbord"> <i class="fal fa-long-arrow-left"></i></button>',
+		nextArrow: '<button class="arrow-billbord next_billbord"> <i class="fal fa-long-arrow-right"></i></button>',
+		infinite: true,
+		centerMode: true,
+		slidesPerRow: 1,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		centerPadding: '0',
+		swipe: true,
+		customPaging: function(slider, i) {
+			return '';
+		},
+		/*infinite: false,*/
+	});
 //прилипающие меню
 var $menu = $(".header");
 $(window).scroll(function(){
@@ -76,6 +83,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
+	$(".language-list a").click(function(e) {
+		e.preventDefault();
+		$(this).parent().addClass("active");
+		$(this).parent().siblings("li").removeClass("active");
+	});
 
 	//кнопка sandwich
 	$(".btn_nav").click(function() {
@@ -106,10 +118,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			});
 
 			$(".menu .menu__haschild > a").click(function(e) {
-		e.preventDefault();
-		$(this).parent().toggleClass("active");
-		$(this).siblings("ul").slideToggle(200);
-	});
+				e.preventDefault();
+				$(this).parent().toggleClass("active");
+				$(this).siblings("ul").slideToggle(200);
+			});
 		}
 	}
 
@@ -121,9 +133,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
-	responsive: [
+		responsive: [
 		{
 			breakpoint: 1200,
 			settings: {
@@ -139,7 +153,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			}
 		}
 		]
-		});
+	});
 
 	$('.slider-partners').slick({
 		arrows: true,
@@ -147,6 +161,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		infinite: true,
 		slidesToShow: 5,
 		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fal fa-long-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-long-arrow-right"></i><div/>',
 		responsive: [
@@ -165,7 +181,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			}
 		}
 		]
-		});
+	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
