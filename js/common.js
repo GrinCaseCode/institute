@@ -30,7 +30,7 @@ $(document).ready(function() {
 		slick.$prev.prev().removeClass('slick-sprev2');
 		slick.$next.next().removeClass('slick-snext2');
 		next = cur.next(),  
-		prev = cur.prev();
+		prev = cur.prev(); 
   //prev2.prev().prev();
   //next2.next().next();
   prev.addClass('slick-sprev');
