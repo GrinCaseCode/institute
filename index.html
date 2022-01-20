@@ -15,12 +15,13 @@
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
 	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.2" />
-	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
 </head>
 <body>
 
@@ -103,10 +104,7 @@
 								<span class="btn-3d__rings"></span>
 							</a>
 							<a href="#" class="btn-header btn-header_eye"><i class="far fa-eye"></i></a>
-							<a href="#" class="btn-header btn-header_user">
-								<i class="far fa-user-circle"></i> 
-								<i class="far fa-sign-in"></i>
-							</a>
+							<a href="#" class="btn-header btn-header_user"><i class="far fa-user-circle"></i> </a>
 							<div class="form-search">
 								<form>
 									<input type="text" placeholder="Поиск">
@@ -131,33 +129,6 @@
 							</form>
 						</div>
 					</div>
-					<ul class="menu">
-						<li><a href="#">Об Институте</a></li>
-						<li><a href="#">Образование</a></li>
-						<li class="menu__haschild">
-							<a href="#">Лаборатории</a>
-							<ul>
-								<li><a href="#">Лаборатория агроценотического регулирования численности членистоногих</a></li>
-								<li><a href="#">Лаборатория генетической коллекции томатов</a></li>
-								<li><a href="#">Лаборатория гербологии</a></li>
-								<li><a href="#">Лаборатория государственной коллекции энтомоакарифагов и первичной оценки биологических средств защиты растений</a></li>
-								<li><a href="#">Лаборатория иммунитета зерновых культур к грибным болезням</a></li>
-								<li><a href="#">Лаборатория интегрированной защиты растений</a></li>
-								<li><a href="#">Лаборатория конструирования агроэкосистем для технологий органического земледелия</a></li>
-								<li><a href="#">Лаборатория регуляторов роста растений</a></li>
-								<li><a href="#">Лаборатория создания микробиологических средств защиты растений и коллекции микроорганизмов</a></li>
-								<li><a href="#">Лаборатория стандартизации и контроля качества биологических средств защиты растений</a></li>
-								<li><a href="#">Лаборатория фитосанитарного мониторинга, приборного и технического обеспечения</a></li>
-								<li><a href="#">Лаборатория химической коммуникации и массового разведения насекомых</a></li>
-								<li><a href="#">Сектор биотехнологии</a></li>
-								<li><a href="#">Лазаревская ОСЗР</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Мероприятия</a></li>
-						<li><a href="#">Услуги</a></li>
-						<li><a href="#">БРК и УНУ</a></li>
-						<li><a href="#">Лазаревская ОСЗР</a></li>
-					</ul>
 					<div class="row">
 						<div class="col-lg-5">
 							<div class="menu-main__title">Научные подразделения</div>
@@ -418,8 +389,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5">
-						<h2 class="title-section">Сегодня <strong>наш центр —</strong></h2>
-						<div class="title-middle">это место, где не страшно думать и действовать, ошибаться и побеждать</div>
+						<div class="left-about bounceIn wow" data-wow-delay="0.3s" data-wow-duration="2s">
+							<h2 class="title-section">Сегодня <strong>наш центр —</strong></h2>
+							<div class="title-middle">это место, где не страшно думать и действовать, ошибаться и побеждать</div>
+						</div>
 					</div>
 					<div class="col-lg-7 about__right">
 						<div class="title-text">Выбранный нами инновационный путь</div>
@@ -545,7 +518,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
-						<h2 class="title-section">Федеральный научный центр биологической защиты растенийдаЁт <strong>молодым специалистам:</strong></h2>
+						<h2 class="title-section">Федеральный научный центр биологической защиты растений даЁт <strong>молодым специалистам:</strong></h2>
 						<ul class="list-page">
 							<li>Трудоустройство</li>
 							<li>Обучение на аспирантуре</li>
@@ -626,7 +599,7 @@
 						</div>
 					</div>
 					<div class="col-lg-5">
-						<div class="footer__title footer__title_mob">О компании <i class="fal fa-plus"></i></div>
+						<div class="footer__title footer__title_mob">ФГБНУ ФНЦБЗР <i class="fal fa-plus"></i></div>
 						<div class="footer__content">
 							<ul class="footer__nav footer__nav_big">
 								<li><a href="#">Об Институте</a></li>
@@ -710,8 +683,10 @@
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/animate/wow.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.2"></script>
+<script src="js/common.js?ver=1.3"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
