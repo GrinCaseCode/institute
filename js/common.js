@@ -100,7 +100,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	});
 
-	$(".menu-main li:not('.menu__haschild') a").click(function() {
+	$(".menu-list li:not('.menu__haschild') a").click(function() {
 		$(".menu-main").slideUp(200);
 		$(".sandwich").removeClass("active");
 	});

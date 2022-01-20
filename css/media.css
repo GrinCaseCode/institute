@@ -539,6 +539,10 @@
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
+.menu-main .language-list a {
+	    color: #96afb8;
+	border-color: transparent;
+}
 }
 
 /* Small Devices, Tablets */
