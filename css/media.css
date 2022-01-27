@@ -91,6 +91,31 @@
 	.header-bottom__buttons {
 		margin-left: 65px;
 	}
+	.item-question__head {
+		padding: 30px 30px;
+		font-size: 22px;
+	}
+
+}
+@media only screen and (max-width : 1600px) {
+	.container_page {
+		max-width: 1300px;
+	}
+	.info-graduate {
+		font-size: 27px;
+	}
+	.item-program__title {
+		font-size: 24px;
+		line-height: 34px;
+		margin-bottom: 25px;
+	}
+	.item-program__info {
+		font-size: 22px;
+		margin-bottom: 22px;
+	}
+	.item-education {
+		font-size: 26px;
+	}
 }
 @media only screen and (max-width : 1450px) {
 	body {
@@ -168,14 +193,74 @@
 		padding-bottom: 25px;
 	}
 	.logo-menu {
-    margin-right: 25px;
-}
-.fixed .header-bottom__buttons {
-    margin-left: 20px;
-}
-.list-social li {
-    margin-right: 29px;
-}
+		margin-right: 25px;
+	}
+	.fixed .header-bottom__buttons {
+		margin-left: 20px;
+	}
+	.list-social li {
+		margin-right: 29px;
+	}
+	.container.container_page {
+		max-width: 1050px;
+	}
+	.item-graduate {
+		font-size: 21px;
+		padding-left: 15px;
+	}
+	.info-graduate {
+		font-size: 21px;
+	}
+	.item-program {
+		margin: 0 7px;
+	}
+	.slider-programs {
+		margin: 0 -7px;
+	}
+	.item-program__content {
+		padding: 20px;
+	}
+	.item-program__title {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	.item-program__info {
+		font-size: 19px;
+		margin-bottom: 19px;
+	}
+	.item-program__image {
+		height: 220px;
+	}
+	.item-graduate::before {
+		right: -160px;
+	}
+	.item-staff__name {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.item-education {
+		font-size: 23px;
+	}
+	.item-education__image {
+		right: 17px;
+		transform: scale(0.95);
+		transform-origin: 100% 100%;
+	}
+	.card-person {
+		padding: 33px 15px;
+	}
+	.card-person__image {
+		width: 250px;
+		height: 250px;
+	}
+	.item-education::before {
+		right: -124px;
+	}
+	.item-question__head {
+		padding: 28px 32px;
+		font-size: 22px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -280,8 +365,63 @@
 		margin-right: 15px;
 	}
 	.list-social li {
-    margin-right: 22px;
-}
+		margin-right: 22px;
+	}
+	.wrapper {
+		padding-top: 129px;
+	}
+	.title-section_page {
+		padding-top: 35px;
+		padding-bottom: 25px;
+	}
+	.item-graduate__image {
+		transform: scale(0.9);
+		transform-origin: 100% 100%;
+	}
+	.item-graduate {
+		height: 220px;
+	}
+	.item-graduate::before {
+		left: 170px;
+	}
+	.title-page {
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.for-graduate {
+		padding: 56px 35px;
+	}
+	.for-graduate__image {
+		right: 40px;
+	}
+	.container.container_page {
+		max-width: 905px;
+	}
+	.item-program {
+		margin: 0 15px;
+	}
+	.slider-programs {
+		margin: 0 -15px;
+	}
+	.item-staff__image {
+		margin-right: 25px;
+	}
+	.link-doc {
+		font-size: 19px;
+	}
+	.card-person__name {
+		font-size: 19px;
+		line-height: 29px;
+	}
+	.item-education::before {
+		right: -182px;
+	}
+	.simple-doc {
+		font-size: 18px;
+	}
+	.item-question__inner {
+		padding: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -363,7 +503,7 @@
 		margin: 0;
 		width: 100%;
 		z-index: 800;
-		    box-shadow: 0px 0px 10px rgb(150 175 184 / 20%);
+		box-shadow: 0px 0px 10px rgb(150 175 184 / 20%);
 		justify-content: space-around;
 		background-color: #fff;
 	}
@@ -442,9 +582,9 @@
 	}
 	.menu-main .menu a,
 	.menu-main__title {
-		    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: 500;
 		padding: 10px 0;
 		border-bottom: 1px solid #fff;
 		display: flex;
@@ -528,21 +668,74 @@
 		margin-left: 0px;
 	} 
 	.menu-main .menu a:hover,
-	 .menu-main__title:hover {
-	 	color: #fff;
+	.menu-main__title:hover {
+		color: #fff;
 	}
 	.list-social li {
-    margin-right: 28px;
-}
-.list-social {
-	font-size: 16px;
-	margin-top: 25px;
-	margin-bottom: 15px;
-}
-.menu-main .language-list a {
-	    color: #96afb8;
-	border-color: transparent;
-}
+		margin-right: 28px;
+	}
+	.list-social {
+		font-size: 16px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	.menu-main .language-list a {
+		color: #96afb8;
+		border-color: transparent;
+	}
+	.for-graduate__content {
+		max-width: 330px;
+	}
+	.for-graduate {
+		font-size: 16px;
+		padding: 30px 35px;
+		margin-top: 60px;
+	}
+	.for-graduate .btn-main {
+		margin-top: 20px;
+	}
+	.for-graduate__image img {
+		max-width: 300px;
+	}
+	.container.container_page {
+		padding: 0 25px;
+	}
+	.slider-programs {
+		padding-bottom: 40px;
+	}
+	.additional-education {
+		padding-bottom: 50px;
+	}
+	.item-education::before {
+		right: -105px;
+	}
+	.card-person {
+		margin-top: 30px;
+		min-height: initial;
+	}
+	.item-question__head {
+		padding: 20px 20px;
+		font-size: 19px;
+	}
+	.item-question__content {
+		padding: 30px;
+		padding-top: 50px;
+	}
+	.simple-doc {
+		font-size: 16px;
+	}
+	.simple-doc i {
+		font-size: 19px;
+		margin-right: 20px;
+	}
+	.tabs-years a {
+		padding: 8px 0;
+	}
+	.tabs-years {
+		font-size: 30px;
+		line-height: 50px;
+		padding-right: 35px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -637,6 +830,93 @@
 		padding: 2px 8px;
 		font-size: 12px;
 	}
+	.title-page {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.info-graduate {
+		font-size: 21px;
+		padding: 15px 19px;
+	}
+	.title-section_page {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+	.item-graduate {
+		padding-right: 120px;
+	}
+	.for-graduate__image {
+		right: -82px;
+	}
+	.for-graduate {
+		margin: 0 -25px;
+		margin-top: 60px;
+		padding: 30px 20px;
+	}
+	.for-graduate__content {
+		max-width: 280px;
+	}
+	.additional-education .col-lg-6 .item-graduate__image {
+		right: 0;
+	}
+	.breadcrumbs {
+		padding: 15px 0;
+	}
+	.teaching-staff .title-section {
+		padding-bottom: 20px;
+	}
+	.teaching-staff {
+		padding-bottom: 40px;
+	}
+	.item-education::before {
+		right: -190px;
+	}
+	.item-education {
+		font-size: 21px;
+		height: 225px;
+		padding-left: 15px;
+	}
+	.item-education__image {
+		transform: scale(0.7);
+	}
+	.education-main {
+		padding-top: 0;
+	}
+	.link-doc {
+		padding: 15px 15px;
+	}
+	.link-doc i {
+		margin-right: 20px;
+	}
+	.item-question__head {
+		padding: 15px 15px;
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.item-question__head .fa-chevron-down,
+	.item-question__head .fa-file {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+		margin-right: 15px;
+	}
+	.item-question__head .fa-chevron-down {
+		margin-right: 0;
+		font-size: 13px;
+	}
+	.tab-container-years {
+		padding-left: 20px;
+	}
+	.simple-doc i {
+		font-size: 18px;
+		margin-right: 9px;
+	}
+	.studying-proccess {
+		padding-bottom: 40px;
+	}
+	.studying-proccess .title-section {
+		padding-bottom: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -675,19 +955,77 @@
 		font-size: 18px;
 		line-height: 25px;
 	}
-.about {
-	padding-bottom: 25px;
-}
-.prev_billbord {
-    left: 10%;
-}
-.next_billbord {
-    right: 10%;
-}
-.form-search input:focus {
-    width: calc(100vw - 45px);
-    max-width: 400px;
-    }
+	.about {
+		padding-bottom: 25px;
+	}
+	.prev_billbord {
+		left: 10%;
+	}
+	.next_billbord {
+		right: 10%;
+	}
+	.form-search input:focus {
+		width: calc(100vw - 45px);
+		max-width: 400px;
+	}
+	.container.container_page {
+		padding: 0 15px;
+	}
+	.item-graduate {
+		padding-right: 85px;
+	}
+	.item-graduate {
+		height: 200px;
+		line-height: 33px;
+	}
+	.title-page {
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.item-program__info {
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.item-staff__name {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.item-staff__image {
+		margin-right: 15px;
+	}
+	.item-education {
+		font-size: 18px;
+	}
+	.item-education::before {
+		right: -204px;
+	}
+	.item-education__image {
+		right: 0;
+	}
+	.link-doc {
+		padding: 15px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.education {
+		padding-bottom: 55px;
+	}
+	.simple-doc {
+		font-size: 14px;
+	}
+	.item-question__content {
+		padding: 15px;
+		padding-top: 35px;
+	}
+	.item-question__head {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.tabs-years {
+		font-size: 24px;
+		line-height: 40px;
+		padding-right: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -732,5 +1070,8 @@
 @media (min-width: 1600px) {
 	.container {
 		max-width: 100%;
+	}
+	.container_page {
+		max-width: 1390px;
 	}
 }

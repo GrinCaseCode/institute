@@ -183,6 +183,58 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-programs').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 3000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				arrows: false,
+				dots: true
+			}
+		}
+		]
+	});
+
+	  $(".item-question__head").click(function() {
+  $(this).parent().toggleClass("active");
+  $(this).siblings().slideToggle(200);
+  $(this).parent().siblings(".item-question").removeClass("active");
+  $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+});
+
+	$('.tabs-years li a').click(function(event) {
+  event.preventDefault();
+  $(this).parent().parent().find("li").removeClass('active');
+  $(this).parent().addClass('active');
+  $(this).parent().parent().siblings(".tab-container-years").find(".tab-pane-years").fadeOut(0);
+  var selectTab = $(this).attr("href");
+  $(selectTab).fadeIn(200);
+});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
