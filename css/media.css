@@ -92,8 +92,17 @@
 		margin-left: 65px;
 	}
 	.item-question__head {
-		padding: 30px 30px;
+		padding: 30px 30px; 
 		font-size: 22px;
+	}
+	.title-block {
+		font-size: 21px;
+	}
+	.applicants-sidebar {
+		padding: 27px;
+	}
+	.applicants .item-question__head {
+		padding: 31px 30px;
 	}
 
 }
@@ -116,6 +125,13 @@
 	.item-education {
 		font-size: 26px;
 	}
+	.applicants .item-question__head {
+		padding: 33px 30px;
+	}
+	.programs .table-wrap th, .programs .table-wrap td {
+    padding-left: 18px;
+    padding-right: 18px;
+}
 }
 @media only screen and (max-width : 1450px) {
 	body {
@@ -260,6 +276,25 @@
 	.item-question__head {
 		padding: 28px 32px;
 		font-size: 22px;
+	}
+	.title-block {
+		font-size: 19px;
+	}
+	.applicants-sidebar {
+		padding: 35px;
+	}
+	.applicants .item-question__head {
+		padding: 32px 30px;
+	}
+	.programs .table-wrap  {
+		font-size: 14px;
+	}
+	.programs .table-wrap th {
+		font-size: 15px;
+	}
+	.programs .table-wrap th, .programs .table-wrap td {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
@@ -422,6 +457,21 @@
 	.item-question__inner {
 		padding: 0;
 	}
+	.applicants-sidebar {
+		padding: 20px;
+	}
+	.title-block {
+		font-size: 19px;
+	}
+	.portfolio {
+		padding-bottom: 100px;
+	}
+	.programs .table-wrap {
+    font-size: 12px;
+}
+.programs {
+	padding-bottom: 80px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -736,6 +786,26 @@
 		line-height: 50px;
 		padding-right: 35px;
 	}
+	.year-graduate {
+		padding-bottom: 20px;
+	}
+	.graduate {
+		padding-bottom: 40px;
+	}
+	.applicants__left {
+		padding-right: 15px;
+	}
+	.applicants-sidebar {
+		padding: 35px;
+		margin-left: 0;
+	}
+	.portfolio .card-person {
+		margin-bottom: 25px;
+		padding-bottom: 40px;
+	}
+	.programs .table-wrap {
+    font-size: 14px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -917,6 +987,42 @@
 	.studying-proccess .title-section {
 		padding-bottom: 20px;
 	}
+	.applicants .item-question__head {
+		padding: 15px;
+	}
+	.applicants .item-question {
+		margin-bottom: 20px;
+	}
+	.applicants-sidebar {
+		padding: 25px;
+	}
+	.applicants {
+		padding-bottom: 55px;
+	}
+	.item-question__head .fa-chevron-down {
+		margin-left: 5px;
+	}
+	.table-wrap th {
+		font-size: 16px;
+		padding: 13px 16px;
+	}
+	.table-wrap td {
+		padding: 16px;
+	}
+	
+	.table-wrap table {
+		width: 700px;
+	}
+	.table-wrap {
+		margin-right: -25px;
+		overflow: auto;
+	}
+	.portfolio {
+		padding-bottom: 50px;
+	}
+	.programs {
+		padding-bottom: 50px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1026,6 +1132,22 @@
 		line-height: 40px;
 		padding-right: 20px;
 	}
+	.line-graduate .item-staff {
+		padding: 14px;
+	}
+	.title-block {
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.applicants-sidebar {
+		padding: 20px;
+	}
+	.portfolio .card-person {
+		padding-bottom: 30px;
+	}
+	.portfolio__right p {
+    margin-bottom: 15px;
+}
 }
 
 /* Custom, iPhone Retina */
