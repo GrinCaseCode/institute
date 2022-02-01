@@ -129,9 +129,9 @@
 		padding: 33px 30px;
 	}
 	.programs .table-wrap th, .programs .table-wrap td {
-    padding-left: 18px;
-    padding-right: 18px;
-}
+		padding-left: 18px;
+		padding-right: 18px;
+	}
 }
 @media only screen and (max-width : 1450px) {
 	body {
@@ -467,11 +467,11 @@
 		padding-bottom: 100px;
 	}
 	.programs .table-wrap {
-    font-size: 12px;
-}
-.programs {
-	padding-bottom: 80px;
-}
+		font-size: 12px;
+	}
+	.programs {
+		padding-bottom: 80px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -804,8 +804,8 @@
 		padding-bottom: 40px;
 	}
 	.programs .table-wrap {
-    font-size: 14px;
-}
+		font-size: 14px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1021,6 +1021,12 @@
 	.programs {
 		padding-bottom: 50px;
 	}
+	.modal-wrap .title-page {
+		padding-bottom: 14px;
+	}
+	.modal-wrap {
+		padding: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1132,20 +1138,23 @@
 	}
 	.line-graduate .item-staff {
 		padding: 14px;
-	}
+	}  
 	.title-block {
 		font-size: 17px;
 		margin-bottom: 15px;
 	}
-	.applicants-sidebar {
+	.applicants-sidebar { 
 		padding: 20px;
 	}
-	.portfolio .card-person {
+	.portfolio .card-person { 
 		padding-bottom: 30px;
 	}
 	.portfolio__right p {
-    margin-bottom: 15px;
-}
+		margin-bottom: 15px;
+	}
+	.checkbox {
+		margin-top: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
