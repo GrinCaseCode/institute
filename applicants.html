@@ -20,8 +20,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+	<link rel="stylesheet" href="css/main.css?ver=1.8" />
+	<link rel="stylesheet" href="css/media.css?ver=1.8" />
 </head>
 <body>
 
@@ -29,7 +29,7 @@
 
 		<div class="container">
 			<div class="social-vertical-wrap">
-				<ul class="social-vertical">
+				<ul class="social-vertical"> 
 					<li><a href="#">instagram</a></li>
 					<li><a href="#">facebook</a></li>
 					<li><a href="#">вконтакте</a></li>
@@ -115,7 +115,7 @@
 								<span class="btn-3d__rings"></span>
 							</a>
 							<a href="#" class="btn-header btn-header_eye"><i class="far fa-eye"></i></a>
-							<a href="#" class="btn-header btn-header_user"><i class="far fa-user-circle"></i> </a>
+							<a href="#callback" class="btn-header btn-header_user fancybox"><i class="far fa-user-circle"></i> </a>
 							<div class="form-search">
 								<form>
 									<input type="text" placeholder="Поиск">
@@ -418,6 +418,50 @@
 
 	</div>
 
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-page">Обратная связь</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Имя" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="email" placeholder="Почта" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Телефон" class="input-phone" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Наименование программы" required="required">
+						</div>
+					</div>
+				</div>
+				<div class="item-form">
+					<textarea placeholder="Ваш комментарий"></textarea>
+				</div>
+				<div class="bottom-form">
+					<button class="btn-main" type="submit">Отправить</button>
+					<div class="checkbox-wrap">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Согласие на обработку персональных данных</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -433,7 +477,7 @@
 <script src="libs/animate/wow.min.js"></script>
 <script src="libs/animate/animate-css.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.7"></script>
+<script src="js/common.js?ver=1.8"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
