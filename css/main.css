@@ -2424,3 +2424,6 @@ a.menu-main__title:hover {
 	background-color: rgba(5,18,25,0.8);
 	background-image: none;
 }
+.modal-block {
+	display: none;
+}
