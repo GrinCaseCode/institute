@@ -1082,7 +1082,7 @@
 	padding-top: 0;
 }
 .unit-section {
-	padding: 30px 20px;
+	padding: 30px 20px; 
 }
 .unit-section::before {
 	top: -200px;
