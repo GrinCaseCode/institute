@@ -296,6 +296,20 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.text-school {
+    padding: 58px 140px;
+}
+.callback-main {
+    padding: 35px 200px;
+    background-size: 180px auto;
+    }
+    .text-school_additional {
+    	padding: 58px 70px;
+    }
+    .unit-section {
+    font-size: 16px;
+    line-height: 25px;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -472,6 +486,14 @@
 	.programs {
 		padding-bottom: 80px;
 	}
+	.text-school {
+    padding: 58px 90px;
+        font-size: 16px;
+    line-height: 27px;
+}
+.callback-main {
+    padding: 35px 100px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -806,6 +828,18 @@
 	.programs .table-wrap {
 		font-size: 14px;
 	}
+	.unit-section {
+    font-size: 14px;
+    line-height: 23px;
+}
+.international-activity .table-wrap th {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.title-small {
+    font-size: 22px;
+    line-height: 31px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1027,6 +1061,45 @@
 	.modal-wrap {
 		padding: 20px;
 	}
+	.for-graduate .btn-main {
+    font-size: 17px;
+    line-height: 26px;
+    height: 55px;
+    width: initial;
+}
+.text-school {
+    padding: 34px 40px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.callback-main {
+	padding: 35px;
+}
+.callback-main .title-section {
+	padding-bottom: 15px;
+}
+.links-doc {
+	padding-top: 0;
+}
+.unit-section {
+	padding: 30px 20px;
+}
+.unit-section::before {
+	top: -200px;
+}
+.unit-section__image {
+    width: 200px;
+    height: 140px;
+    display: none;
+    }
+    .international-activity .unit-section {
+    	margin-bottom: 30px;
+    }
+    .title-small {
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1155,6 +1228,15 @@
 	.checkbox {
 		margin-top: 20px;
 	}
+	.text-school {
+    padding: 20px 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+.callback-main {
+	padding: 25px 15px;
+	background-image: none;
+}
 }
 
 /* Custom, iPhone Retina */

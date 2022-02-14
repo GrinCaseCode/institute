@@ -1676,9 +1676,7 @@ a.menu-main__title:hover {
 .social-vertical-wrap {
 	position: relative;
 }
-.additional-education .col-lg-6 .item-graduate__image {
-	right: 25px;
-}
+
 .additional-education .title-text {
 	margin-top: 15px;
 }
@@ -2087,7 +2085,7 @@ a.menu-main__title:hover {
 	padding-bottom: 30px;
 }
 .links-doc {
-	margin-top: auto;
+	padding-top: 40px;
 	width: 100%;
 } 
 .graduate .title-section {
@@ -2165,14 +2163,13 @@ a.menu-main__title:hover {
 	font-weight: 500;
 }
 .portfolio .card-person {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 	margin-top: 0;
 	min-height: initial;
 }
 .portfolio .card-person__name {
 	padding-bottom: 7px;
 	display: inline-block;
-	border-bottom: 1px solid #59a84b;
 }
 .portfolio .breadcrumbs {
 	padding-bottom: 26px;
@@ -2235,7 +2232,7 @@ a.menu-main__title:hover {
 	color: #006a9c;
 }
 .portfolio {
-	padding-bottom: 190px;
+	padding-bottom: 105px;
 }
 .programs {
 	padding-bottom: 120px;
@@ -2426,4 +2423,157 @@ a.menu-main__title:hover {
 }
 .modal-block {
 	display: none;
+}
+.text-school {
+	padding: 58px 187px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 40px;
+	background-color: rgba(235,247,235,0.7);
+	border-radius: 15px;
+	text-align: center;
+}
+.text-school strong {
+	font-weight: 500;
+}
+.callback-main .checkbox label > span,
+.for-graduate .checkbox label > span {
+	padding-top: 5px;
+}
+.callback-main .checkbox label > span:after, 
+.for-graduate .checkbox label > span:after {
+	color: #fff;
+}
+.callback-main .checkbox {
+	color: #1a1a1a;
+}
+.for-graduate .checkbox {
+	margin-top: 15px;
+	color: #1a1a1a;
+}
+.for-graduate .btn-main {
+	font-size: 24px;
+	line-height: 30px;
+	width: 350px;
+	margin-top: 30px;
+	font-weight: 500;
+}
+.text-school_additional {
+	padding: 70px 74px;
+}
+.item-program .btn-main {
+	background-color: #59a84b;
+	width: 100%;
+}
+.callback-main {
+	padding: 35px 320px;
+	margin-top: 45px;
+	background-color: #59a84b;
+	box-shadow: 0px 15px 35px 0px rgba(89,168,75,0.4);
+	border-radius: 15px;
+	background-image: url(../img/img_form1.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	color: #fff;
+}
+.callback-main .title-section {
+	padding-bottom: 30px;
+	font-weight: 900;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.callback-main__bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.callback-main .btn-main {
+	padding: 0 80px;
+}
+.card-person__position {
+	padding: 0 10px;
+	padding-bottom: 8px;
+	margin-top: 15px;
+	display: inline-block;
+	border-bottom: 1px solid #59a84b;
+}
+.card-person p a {
+	color: #000;
+}
+.card-person p strong {
+	font-weight: 600;
+}
+.unit-section {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 40px 34px;
+	padding-right: 293px;
+	font-weight: 500;
+	background-color: #f8f9fa;
+	box-shadow: 0px 15px 35px 0px rgba(150,175,184,0.2);
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.unit-section::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 360px;
+	height: 360px;
+	top: -24px;
+	right: -130px;
+	background-color: #59a84b;
+	border-radius: 50%;
+	z-index: -1;
+}
+.unit-section__image {
+	width: 280px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.unit-section__image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.international-activity .title-section {
+	padding-bottom: 30px;
+}
+.title-small  {
+	font-size: 26px;
+line-height: 36px;
+padding-bottom: 10px;
+font-weight: 700;
+color: #2f4858;
+}
+.international-activity .unit-section {
+	margin-bottom: 60px;
+}
+.international-activity .title-small {
+	max-width: 1090px;
+}
+.international-activity .table-wrap th {
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+.international-activity .table-wrap strong {
+	font-weight: 500;
+}
+.international-activity .table-wrap tr:nth-child(even) td {
+	background-color: #f8f9fa;
+}
+.international-activity .table-wrap {
+	line-height: 24px;
+	color: #000;
+}
+.international-activity {
+	padding-bottom: 54px;
 }
