@@ -80,6 +80,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$menu.removeClass("fixed").addClass("default");
 }
 
+
+$(".sidebar-filter__more .link-page").click(function(e) {
+	e.preventDefault();
+		if ($(".checkboxes-wrap .checkbox_main:nth-child(n+17)").is(":hidden")) {
+			$(".checkboxes-wrap .checkbox_main:nth-child(n+17)").slideDown(200);
+			$(this).html("Скрыть");
+		} else {
+			$(".checkboxes-wrap .checkbox_main:nth-child(n+17)").slideUp(200);
+			$(this).html("Смотреть все");
+		}
+		
+	});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -233,6 +246,20 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().parent().siblings(".tab-container-years").find(".tab-pane-years").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
+	});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
+
+	$('.btn-main_filter').click(function(event) {
+		event.preventDefault();
+		$(".sidebar-filter").slideToggle(200);
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
