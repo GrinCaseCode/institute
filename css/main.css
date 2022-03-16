@@ -3062,3 +3062,24 @@ a.menu-main__title:hover {
 	bottom: 37px;
 	right: 21px;
 }
+.social-vertical {
+		position: fixed;
+	top: 150px;
+	z-index: 700;
+	right: 5px;
+	left: auto;
+	transition: all 0.3s;
+}
+.menu__hidden {
+	display: none;
+}
+.header.fixed .menu__hidden {
+	display: block;
+}
+.header.fixed ~ .social-vertical {
+	top: 85px;
+}
+.billbord__wrap {
+	margin: 0 -15px;
+	padding-right: 0;
+}

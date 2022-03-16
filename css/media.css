@@ -152,7 +152,7 @@
 		line-height: 24px;
 	}
 	.menu {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.header-bottom__buttons {
 		margin-left: 30px;
@@ -377,7 +377,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu {
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.header-bottom__buttons {
 		margin-left: 10px;
