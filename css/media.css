@@ -983,6 +983,9 @@
 	.structure-subitem {
 		max-width: 100%;
 	}
+	.billbord__wrap {
+		margin: 0;
+	}
 }
 
 /* Small Devices, Tablets */
