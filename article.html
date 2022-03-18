@@ -25,7 +25,7 @@
 </head>
 <body>
 
-	<div class="wrapper">  
+	<div class="wrapper">   
 
 		<header class="header default">
 			<div class="header-top">
@@ -437,35 +437,6 @@
 <script src="libs/animate/animate-css.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.23"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script>
-	$(document).ready(function() {
-		ymaps.ready(init);
-
-		function init() {
-			var myMap = new ymaps.Map('map-contact', {
-				center: [45.054054, 38.890494],
-				zoom: 15
-			}, {
-				searchControlProvider: 'yandex#search'
-			});		
-
-			myPlacemark1 = new ymaps.Placemark([45.054054, 38.890494], {
-				
-			}, {
-				iconLayout: 'default#image',
-				iconImageHref: 'img/pin.svg',
-				hideIconOnBalloonOpen: false,
-				iconImageSize: [25, 34],
-				iconImageOffset: [-12, -34],
-				balloonOffset: [ 0, -34 ]
-			});
-			myMap.controls.remove('searchControl');
-			myMap.behaviors.disable('scrollZoom');
-			myMap.geoObjects.add(myPlacemark1);
-		}
-	});
-</script> 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
