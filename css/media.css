@@ -4,8 +4,11 @@
 		padding: 2px 10px;
 	}
 	.fixed .header-bottom__buttons {
-		margin-left: 44px;
+		margin-left: 25px;
 	}
+	.history__image {
+    margin-right: -60px;
+}
 }
 @media only screen and (max-width : 1700px) {
 	.container {
@@ -19,7 +22,7 @@
 	}
 	.form-search,
 	.btn-header {
-		margin-left: 27px;
+		margin-left: 20px;
 	}
 	.slick-current .slider-billbord__title {
 		font-size: 27px;
@@ -29,6 +32,9 @@
 	}
 	.social-vertical li {
 		margin-top: 25px;
+	}
+	.menu {
+		font-size: 14px;
 	}
 	.news-image .title-news, .min-news .title-news {
 		font-size: 16px;
@@ -48,9 +54,11 @@
 	}
 	.item-direction {
 		padding: 22px;
+		padding-bottom: 35px;
 		font-size: 16px;
 		min-height: 230px;
 	}
+	.slider-publications-page .slick-slide,
 	.slider-publications .slick-slide {
 		padding: 35px 15px;
 	}
@@ -89,7 +97,7 @@
 		padding-bottom: 17px;
 	}
 	.header-bottom__buttons {
-		margin-left: 65px;
+		margin-left: 25px;
 	}
 	.item-question__head {
 		padding: 30px 30px; 
@@ -145,6 +153,25 @@
 	.about-page .item-graduate {
 		padding: 0 20px;
 	}
+	.history__image {
+		margin-right: -34px;
+	}
+	.history {
+		font-size: 14px;
+		line-height: 28px;
+		padding-bottom: 60px;
+	}
+	.history .title-section {
+		padding-bottom: 35px;
+	}
+	.tabs-main a {
+    height: 94px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.slider-two__item {
+    height: 220px;
+    }
 }
 @media only screen and (max-width : 1450px) {
 	body {
@@ -152,10 +179,10 @@
 		line-height: 24px;
 	}
 	.menu {
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.header-bottom__buttons {
-		margin-left: 30px;
+		margin-left: 15px;
 	}
 	.form-search,
 	.btn-header {
@@ -372,12 +399,38 @@
 	.structure-subitem {
 		font-size: 16px;
 	}
+	.row_council .card-person {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.row_council .card-person__name {
+    font-size: 19px;
+    line-height: 28px;
+}
+.header.fixed .menu {
+    font-size: 11px;
+}
+.tabs-main a {
+    height: 85px;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+.slider-two__item {
+    height: 189px;
+}
+.item-sertificat {
+    height: 330px;
+    }
+    .scientific-divisions {
+    	padding-top: 30px;
+    }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.menu {
-		font-size: 11px;
+		font-size: 10px;
 	}
 	.header-bottom__buttons {
 		margin-left: 10px;
@@ -583,6 +636,42 @@
 	.structure-item_main::before {
 		height: 900px;
 	}
+	.header.fixed .menu {
+    font-size: 9px;
+}
+.row_council .card-person__position {
+    min-width: 220px;
+}
+.row_council {
+	margin: 0 -7px;
+	margin-bottom: 40px;
+}
+.row_council > div {
+	padding: 0 7px;
+}
+.item-question__head {
+    padding: 28px 24px;
+    font-size: 20px;
+}
+.simple-doc i {
+	margin-right: 15px;
+}
+.item-sertificat {
+    height: 375px;
+}
+.tabs-main a img {
+	max-width: 30px;
+}
+.tabs-main a {
+	font-size: 14px;
+	line-height: 23px;
+}
+.slider-two {
+	padding-top: 10px;
+}
+.text-big {
+    font-size: 17px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -986,6 +1075,104 @@
 	.billbord__wrap {
 		margin: 0;
 	}
+	.list-page.list-page_simple {
+    font-size: 14px;
+}
+.general-image {
+	margin-bottom: 20px;
+}
+.general-information .title-middle {
+	padding-bottom: 15px;
+}
+.text-block {
+	min-height: initial;
+	margin-bottom: 20px;
+}
+.general-information {
+	padding-bottom: 40px;
+}
+.genaral-info .list-page {
+    font-size: 16px;
+    }
+    .row_council .card-person {
+    	margin-top: 0;
+    }
+    .council .list-simple {
+    	margin-bottom: 25px;
+    }
+    .council ~ .publications {
+    	padding-top: 25px;
+    }
+    .history .title-section {
+    	padding-bottom: 25px;
+    }
+    .history__image {
+    	margin-right: 0;
+    }
+    .history p {
+    	margin-bottom: 15px;
+    }
+    .innovation .descr-title {
+    	padding-bottom: 20px;
+    }
+    .slider-gallery {
+    	padding: 0 20px;
+    	margin-top: 20px;
+    }
+    .slider-gallery .slick-next {
+    	right: -15px;
+    }
+    .item-sertificat {
+    height: 335px;
+}
+.slider-sertificats {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.col-lg-4 .tabs-main {
+	max-width: 100%;
+}
+.innovation {
+    padding-bottom: 45px;
+    }
+    .tabs-main {
+    	display: flex;
+    	flex-direction: column;
+    }
+    .tabs-main li {
+    	width: 100%;
+    	display: none;
+    }
+    .tabs-main li.active {
+    	order: -1;
+    	display: block;
+    }
+    .tabs-main a img {
+    	display: none;
+    }
+    .btn-tab {
+    	height: 85px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: flex-end;
+    	padding: 0 25px;
+    	z-index: 2;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	    color: #59a84b;
+    }
+    .tabs-main a {
+    	padding-right: 50px;
+    }
+    .contacts .btn-main {
+    	font-size: 20px;
+    	margin-top: 20px;
+    }
+    #map-contact {
+    	height: 380px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1031,6 +1218,7 @@
 	.head-section .link-page {
 		margin-top: 15px;
 	}
+	.slider-publications-page,
 	.slider-publications {
 		margin: 0 -15px;
 	}
@@ -1313,6 +1501,36 @@
 		padding-top: 30px;
 		padding-bottom: 35px;
 	}
+	.genaral-info .list-page {
+    font-size: 14px;
+}
+.history .title-section {
+	padding-bottom: 20px;
+}
+.slider-publications-page .slick-slide {
+	padding-top: 20px;
+}
+.title-main {
+	font-size: 20px;
+	line-height: 29px;
+}
+.slider-gallery {
+	padding: 0;
+	padding-bottom: 25px;
+}
+.slider-gallery__item {
+	height: 285px;
+}
+.slider-sertificats {
+	padding-bottom: 35px;
+}
+.slider-two {
+	margin: 0;
+	padding-bottom: 30px;
+}
+.scientific-divisions {
+	padding-bottom: 50px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1488,6 +1706,55 @@
 		height: 200px;
 		font-size: 19px;
 	}
+	.list-page.list-page_simple {
+    font-size: 13px;
+}
+.list-page.list-page_simple li {
+    padding-left: 23px;
+}
+.text-block {
+	padding: 20px 15px;
+}
+.genaral-info .list-page li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+.card-person__image {
+	margin-bottom: 20px;
+}
+.title-common {
+    font-size: 17px;
+    }
+    .slider-gallery__item {
+    height: 255px;
+}
+.innovation__top {
+	margin-bottom: 30px;
+}
+.item-question_page .simple-doc {
+    margin-bottom: 15px;
+}
+.item-sertificat {
+    height: 425px;
+}
+.tab-pane-main .simple-doc {
+    margin-bottom: 15px;
+}
+.slider-two {
+	margin-bottom: 15px;
+}
+.text-big {
+    font-size: 16px;
+}
+.requisites-text i {
+    font-size: 13px;
+}
+.contacts .btn-main {
+    font-size: 18px;
+    }
+    .contacts {
+    	padding-bottom: 40px;
+    }
 }
 
 /* Custom, iPhone Retina */
