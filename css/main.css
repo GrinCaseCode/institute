@@ -1,5 +1,5 @@
 *::-webkit-input-placeholder {
-	color: #000;
+	color: #000; 
 	opacity: 1;
 }
 *:-moz-placeholder {
@@ -3531,6 +3531,7 @@ font-size: 24px;
 .article h5 {
 	font-size: 18px;
 	margin-bottom: 20px;
+	max-width: 858px;
 	font-weight: 500;
 }
 .article h6 {
@@ -3567,8 +3568,11 @@ font-size: 24px;
 	border-radius: 6px;
 }
 .slider-three {
-	margin: 0 -21px;
+	margin: 0 -12px;
 }
 .article {
 	padding-bottom: 60px;
+	background-image: url(../img/bg_sect.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
