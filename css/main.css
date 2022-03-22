@@ -925,6 +925,7 @@ form {
 	box-shadow: 0px 15px 35px 0px rgba(89,168,75,0.4);
 	border-radius: 15px;
 	transition: all 0.3s;
+	z-index: 1;
 }
 .item-direction:hover {
 	transform: translateY(-10px);
@@ -933,6 +934,7 @@ form {
 	position: absolute;
 	bottom: 16px;
 	right: 16px;
+	z-index: -1;
 }
 .row_directions > div {
 	margin-top: 40px;
