@@ -12,7 +12,7 @@
 }
 *:-ms-input-placeholder {
 	color: #000;
-	opacity: 1;
+	opacity: 1; 
 }
 
 body input:focus:required:invalid,
@@ -21,7 +21,7 @@ body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	 
 }
 body {
 	font-family: "GothamPro";
