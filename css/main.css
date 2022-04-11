@@ -21,10 +21,10 @@ body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
-	 
+
 }
 body {
-	font-family: "GothamPro";
+	font-family: "GothamPro", sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	overflow-x: hidden;
@@ -3826,4 +3826,107 @@ a.menu-main__title:hover {
 	background-image: url(../img/bg_sect.png);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+/*new pages*/
+.slider-billbord video {
+	position: absolute;
+	left: 50%; /* % of surrounding element */
+	top: 50%;
+	min-width: 100%; 
+	min-height: 100%; 
+	object-fit: cover;
+	transform: translate(-50%, -50%); /* % of current element */
+	z-index: -1;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.slider-billbord,
+.rev_slider .slick-slide {
+	border-radius: 15px;
+	overflow: hidden;
+}
+.brk {
+	padding-bottom: 90px;
+	background-image: url(../img/bg_sect.png);
+	background-repeat: no-repeat;
+	background-position: left bottom 60px;
+}
+.brk .item-graduate::before {
+	top: 33px;
+	width: 400px;
+	height: 400px;
+}
+.brk .item-graduate {
+	font-size: 30px;
+	height: 330px;
+	padding-right: 290px;
+	font-weight: 400;
+}
+.row_brk > div:nth-child(2) .item-graduate__image {
+	right: 25px;
+}
+.brk .title-section {
+	padding-bottom: 40px;
+}
+.info-simple {
+	padding: 45px 0;
+	background-color: #f8f9fa;
+	background-image: url(../img/bg_sect2.png);
+	background-repeat: no-repeat;
+	background-position: center 60px;
+}
+.info-simple .list-page {
+	font-size: 18px;
+	line-height: 24px;
+	max-width: 830px;
+	color: #2f4858;
+}
+.info-simple .list-page li {
+	padding-left: 33px;
+	margin-bottom: 20px;
+}
+.info-simple .list-page li::before {
+	top: 2px;
+}
+.info-simple .title-section {
+	padding-bottom: 40px;
+}
+.menu {
+	text-transform: none;
+}
+.scientific-center .title-section {
+		padding-bottom: 35px;
+	max-width: 1000px;
+}
+.text-middle strong {
+	font-weight: 500;
+}
+.text-middle {
+	font-size: 18px;
+	line-height: 30px;
+}
+.text-middle p {
+	margin-bottom: 20px;
+}
+.scientific-center .text-big {
+	color: #000;
+}
+.scientific-center .tabs-main-wrap {
+	margin-top: 15px;
+}
+.scientific-center .tabs-main_page li {
+	width: 50%;
+}
+.scientific-center .tab-container-main {
+	padding-top: 35px;
+}
+.scientific-center {
+	padding-bottom: 40px;
+	background-image: url(../img/bg_sect.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.for-graduate .checkbox label input:checked + span {
+color: #000;
 }

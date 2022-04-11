@@ -9,6 +9,11 @@
 	.history__image {
 		margin-right: -60px; 
 	}
+
+	/*new pages*/
+	.header-bottom__buttons {
+		margin-left: 23px;
+	}
 }
 @media only screen and (max-width : 1700px) {
 	.container {
@@ -119,9 +124,11 @@
 	.item-employee__descr {
 		margin-top: 5px;
 	}
-.buttons-vacancies .btn-doc {
-	font-size: 16px;
-}
+	.buttons-vacancies .btn-doc {
+		font-size: 16px;
+	}
+
+
 }
 @media only screen and (max-width : 1600px) {
 	.container_page {
@@ -180,6 +187,11 @@
 	}
 	.slider-two__item {
 		height: 220px;
+	}
+
+	/*new pages*/
+	.menu {
+		font-size: 13px;
 	}
 }
 @media only screen and (max-width : 1450px) {
@@ -469,6 +481,25 @@
 		font-size: 14px;
 		padding-left: 75px;
 	}
+
+	/*new pages*/
+	.brk .item-graduate {
+		font-size: 25px;
+		height: 252px;
+		padding-right: 250px;
+	}
+	.row_brk > div:nth-child(2) .item-graduate__image img {
+		max-width: 240px;
+	}
+	.brk {
+		padding-bottom: 60px;
+	}
+	.menu {
+    font-size: 11px;
+}
+.logo-menu {
+    margin-right: 10px;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -719,6 +750,10 @@
 	.item-education_simple .btn-main {
 		font-size: 14px;
 	}
+	/*new pages*/
+	.menu {
+    font-size: 9px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1272,9 +1307,25 @@
 		margin-right: 20px;
 	}
 	.laboratory .tabs-main a {
-    text-align: left;
-    justify-content: flex-start;
+		text-align: left;
+		justify-content: flex-start;
+	}
+
+	/*new pages*/
+	.brk .item-graduate {
+		font-size: 22px;
+		height: 210px;
+	}
+	.text-middle {
+    font-size: 16px;
+    line-height: 28px;
 }
+.scientific-center .tabs-main_page li {
+	width: 100%;
+}
+.scientific-center .title-section {
+    padding-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1655,6 +1706,26 @@
 	.scientific-council {
 		padding-bottom: 40px;
 	}
+
+	/*new pages*/
+	.brk .title-section {
+		padding-bottom: 15px;
+	}
+	.brk {
+		padding-bottom: 30px;
+	}
+	.info-simple .title-section {
+		padding-bottom: 25px;
+	}
+	.info-simple .list-page {
+		font-size: 16px;
+	}
+	.info-simple {
+		padding-bottom: 25px;
+	}
+	.scientific-center .tab-container-main {
+    padding-top: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1907,6 +1978,41 @@
 	.title-text_big::before {
 		display: none;
 	}
+
+	/*new pages*/
+	.row_brk > div:nth-child(2) .item-graduate__image {
+		right: 0;
+	}
+	.brk .item-graduate {
+		font-size: 20px;
+	}
+	.row_brk > div:nth-child(2) .item-graduate__image img {
+		max-width: 213px;
+	}
+	.row_brk > div .item-graduate__image img {
+		max-width: 170px;
+	}
+	.info-simple .list-page {
+		font-size: 14px;
+	}
+	.info-simple .list-page li::before {
+		top: 4px;
+	}
+	.info-simple .list-page li {
+		padding-left: 25px;
+		margin-bottom: 15px;
+	}
+	.text-middle {
+    font-size: 14px;
+    line-height: 25px;
+}
+.text-big p,
+.text-middle p {
+    margin-bottom: 15px;
+}
+.scientific-center {
+	padding-bottom: 30px;
+}
 }
 
 /* Custom, iPhone Retina */
