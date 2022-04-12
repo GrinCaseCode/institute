@@ -495,11 +495,21 @@
 		padding-bottom: 60px;
 	}
 	.menu {
-    font-size: 11px;
-}
-.logo-menu {
-    margin-right: 10px;
-}
+		font-size: 11px;
+	}
+	.logo-menu {
+		margin-right: 10px;
+	}
+	.title-personal, .value-personal {
+		padding-left: 22px;
+	}
+	.block-personal__content {
+		padding: 20px;
+		font-size: 16px;
+	}
+	.partners-block__image {
+		margin-right: 0;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -752,8 +762,16 @@
 	}
 	/*new pages*/
 	.menu {
-    font-size: 9px;
-}
+		font-size: 9px;
+	}
+	.block-personal__head {
+		font-size: 20px;
+		line-height: 29px;
+		padding: 20px 25px;
+	}
+	.title-personal, .value-personal {
+		padding-left: 13px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1317,15 +1335,44 @@
 		height: 210px;
 	}
 	.text-middle {
-    font-size: 16px;
-    line-height: 28px;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.scientific-center .tabs-main_page li {
+		width: 100%;
+	}
+	.scientific-center .title-section {
+		padding-bottom: 20px;
+	}
+	.button-personal {
+		text-align: left;
+		padding-bottom: 40px;
+	}
+	.title-personal, .value-personal {
+		padding: 0 15px;
+	}
+	.title-personal {
+		margin-bottom: 5px;
+	}
+	.scientific-projects .tabs-main_page li {
+		width: 100%;
+	}
+	.links-btn li {
+		width: 100%;
+	}
+	.innovation .scientific-council__bottom {
+		margin-top: 30px;
+	}
+	.partners-block__image {
+		margin-bottom: 20px;
+	}
+	.partners-page {
+		padding-bottom: 40px;
+	}
+	.article .slider-three {
+    margin-bottom: 20px;
 }
-.scientific-center .tabs-main_page li {
-	width: 100%;
-}
-.scientific-center .title-section {
-    padding-bottom: 20px;
-    }
+
 }
 
 /* Small Devices, Tablets */
@@ -1724,7 +1771,86 @@
 		padding-bottom: 25px;
 	}
 	.scientific-center .tab-container-main {
-    padding-top: 10px;
+		padding-top: 10px;
+	}
+	.block-personal__content {
+		padding: 15px;
+		font-size: 14px;
+	}
+	.personal .title-section {
+		padding-bottom: 15px;
+	}
+	.block-personal__head {
+		font-size: 18px;
+		line-height: 25px;
+		padding: 20px 25px;
+	}
+	.block-personal {
+		margin-bottom: 30px;
+	}
+	.personal {
+		padding-bottom: 20px;
+	}
+	.button-personal .btn-main {
+		height: 50px;
+		font-size: 16px;
+		padding: 0 30px;
+	}
+	.scientific-projects .title-section {
+		padding-bottom: 25px;
+	}
+	.scientific-projects .tab-container-main .title-section {
+		padding-bottom: 15px;
+	}
+	.scientific-projects .tab-container-main p {
+		margin-bottom: 15px;
+	}
+	.scientific-projects {
+		padding-bottom: 35px;
+	}
+	.scientific-projects .tab-container-main {
+		padding-top: 10px;
+	}
+	.innovation .title-section {
+		padding-bottom: 15px;
+	}
+	.innovation .links-btn {
+		padding-top: 0;
+	}
+	.links-btn li a {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.innovation .title-section_sertificats {
+		padding-bottom: 0;
+		padding-top: 10px;
+	}
+	.education .title-section {
+    padding-bottom: 25px;
+}
+.education {
+    padding-top: 23px;
+    }
+    .link-external {
+    font-size: 16px;
+}
+.link-external i {
+	margin-left: 15px;
+}
+.partners-block {
+	padding: 25px;
+}
+.title-simple {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 12px;
+    }
+    .partners-page .title-section {
+    	padding-bottom: 25px;
+    }
+    .article .list-tags a {
+    font-size: 14px;
+    padding: 2px 11px;
 }
 }
 
@@ -2003,15 +2129,55 @@
 		margin-bottom: 15px;
 	}
 	.text-middle {
-    font-size: 14px;
-    line-height: 25px;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.text-big p,
+	.text-middle p {
+		margin-bottom: 15px;
+	}
+	.scientific-center {
+		padding-bottom: 30px;
+	}
+	.block-personal {
+		margin: 0 -15px;
+		border-radius: 0;
+		margin-bottom: 25px;
+	}
+	.block-personal__content {
+		padding: 15px 0;
+	}
+	.block-personal__head {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 15px 15px;
+		border-radius: 0;
+	}
+	.innovation p {
+		margin-bottom: 15px;
+	}
+	.links-btn__icon {
+		width: 50px;
+	}
+	.links-btn li a {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.innovation {
+		padding-bottom: 35px;
+	}
+	.partners-page .title-section {
+		padding-bottom: 20px;
+	}
+	.partners-block {
+		padding: 15px;
+	}
+	.article .list-tags a {
+    font-size: 12px;
+    padding: 2px 10px;
 }
-.text-big p,
-.text-middle p {
-    margin-bottom: 15px;
-}
-.scientific-center {
-	padding-bottom: 30px;
+.breadcrumbs li::after {
+	margin: 0 6px;
 }
 }
 
