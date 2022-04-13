@@ -510,6 +510,16 @@
 	.partners-block__image {
 		margin-right: 0;
 	}
+	.feature-installation {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 13px;
+}
+.feature-installation i {
+    font-size: 15px;
+    top: 5px;
+    width: 15px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -1852,6 +1862,12 @@
     font-size: 14px;
     padding: 2px 11px;
 }
+.item-installation {
+	margin-bottom: 20px;
+}
+.installation .title-section {
+	padding-bottom: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -2178,6 +2194,23 @@
 }
 .breadcrumbs li::after {
 	margin: 0 6px;
+}
+.installation-block {
+	padding: 15px;
+}
+.installation-block__image {
+    height: 290px;
+    }
+    .feature-installation {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+.feature-installation i {
+	top: 4px;
+}
+.article .slider-sertificats {
+	margin-top: 15px;
 }
 }
 
