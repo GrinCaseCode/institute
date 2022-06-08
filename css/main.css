@@ -4271,3 +4271,30 @@ a.menu-main__title:hover {
 .news-page .pager {
 	margin-left: -60px;
 }
+.container_page .slider-publications .slick-slide {
+	padding: 35px 15px;
+}
+.container_page .slider-publications .title-news {
+	font-size: 17px;
+	line-height: 25px;
+}
+.container_page .slider-publications .item-publication__content {
+	padding: 20px;
+	padding-bottom: 30px;
+}
+.container_page .slider-publications .item-publication__image {
+	height: 235px;
+}
+.laboratory .tab-container-main .title-text {
+	margin-top: 0;
+}
+.laboratory .tab-container-main .slider-publications {
+	margin-top: -30px;
+}
+.item-installation .item-question .btn-doc {
+	margin-top: 15px;
+}
+.item-installation .btn-doc {
+	height: 108px;
+	width: 100%;
+} 

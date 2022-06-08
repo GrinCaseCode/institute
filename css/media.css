@@ -16,15 +16,15 @@
 	} 
 
 	.news-page .item-news__image {
-    height: 225px;
-}
-.news-page .title-news {
-    font-size: 13px;
-    line-height: 20px;
-}
-.news-page .item-news__content {
-    padding: 18px;
-}
+		height: 225px;
+	}
+	.news-page .title-news {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.news-page .item-news__content {
+		padding: 18px;
+	}
 }
 @media only screen and (max-width : 1700px) {
 	.container {
@@ -139,7 +139,19 @@
 		font-size: 16px;
 	}
 
-
+	.container_page .slider-publications .title-news {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.container_page .slider-publications .date-publication {
+		font-size: 14px;
+	}
+	.container_page .slider-publications .date-publication i {
+		margin-right: 15px;
+	}
+	.container_page .slider-publications .item-publication__image {
+		height: 200px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.container_page {
@@ -206,11 +218,11 @@
 	}
 
 	.news-page .item-news__image {
-    height: 207px;
-}
-.news-page .page-numbers {
-	margin: 0 9px;
-}
+		height: 207px;
+	}
+	.news-page .page-numbers {
+		margin: 0 9px;
+	}
 }
 @media only screen and (max-width : 1450px) {
 	body {
@@ -529,36 +541,46 @@
 		margin-right: 0;
 	}
 	.feature-installation {
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 13px;
-}
-.feature-installation i {
-    font-size: 15px;
-    top: 5px;
-    width: 15px;
-    }
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 13px;
+	}
+	.feature-installation i {
+		font-size: 15px;
+		top: 5px;
+		width: 15px;
+	}
 
 
-    .news-page .pager {
-    margin-left: -224px;
-}
-.news-page .title-news {
-    font-size: 12px;
-    line-height: 19px;
-}
-.news-page .item-news__image {
-    height: 185px;
-}
-.news-page .item-news__content {
-    padding: 15px;
-}
-.sidebar-filter {
-	padding: 20px 15px;
-}
-.news-page {
-	padding-top: 30px;
-}
+	.news-page .pager {
+		margin-left: -224px;
+	}
+	.news-page .title-news {
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.news-page .item-news__image {
+		height: 185px;
+	}
+	.news-page .item-news__content {
+		padding: 15px;
+	}
+	.sidebar-filter {
+		padding: 20px 15px;
+	}
+	.news-page {
+		padding-top: 30px;
+	}
+
+	.container_page .slider-publications .slick-slide {
+		padding: 30px 10px;
+	}
+	.laboratory .tab-container-main .slider-publications {
+		margin-top: -15px;
+	}
+	.item-installation .btn-doc {
+		height: 104px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -823,9 +845,16 @@
 	}
 
 	.news-page .checkbox_main {
-    font-size: 13px;
-    margin-top: 15px;
-}
+		font-size: 13px;
+		margin-top: 15px;
+	}
+
+	.laboratory .tab-container-main  {
+		padding-top: 20px;
+	}
+	.laboratory .tab-container-main .slider-publications {
+		margin-top: -30px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1424,21 +1453,24 @@
 		padding-bottom: 40px;
 	}
 	.article .slider-three {
-    margin-bottom: 20px;
-}
+		margin-bottom: 20px;
+	}
 
-.news-page__right .row_news {
-	margin-left: -15px;
-}
-.news-page .pager {
-	margin-left: 0;
-}
-.news-page .checkbox_main {
-    font-size: 14px;
-    }
-    .news-page .title-section {
-    	padding-bottom: 22px;
-    }
+	.news-page__right .row_news {
+		margin-left: -15px;
+	}
+	.news-page .pager {
+		margin-left: 0;
+	}
+	.news-page .checkbox_main {
+		font-size: 14px;
+	}
+	.news-page .title-section {
+		padding-bottom: 22px;
+	}
+	.item-installation .btn-doc {
+		height: 70px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1892,51 +1924,63 @@
 		padding-top: 10px;
 	}
 	.education .title-section {
-    padding-bottom: 25px;
-}
-.education {
-    padding-top: 23px;
-    }
-    .link-external {
-    font-size: 16px;
-}
-.link-external i {
-	margin-left: 15px;
-}
-.partners-block {
-	padding: 25px;
-}
-.title-simple {
-    font-size: 18px;
-    line-height: 23px;
-    margin-bottom: 12px;
-    }
-    .partners-page .title-section {
-    	padding-bottom: 25px;
-    }
-    .article .list-tags a {
-    font-size: 14px;
-    padding: 2px 11px;
-}
-.item-installation {
-	margin-bottom: 20px;
-}
-.installation .title-section {
-	padding-bottom: 15px;
-}
-.news-page .title-news {
-    font-size: 14px;
-    line-height: 23px;
-}
-.news-page .item-news__content {
-    padding: 20px;
-}
-.news-page .item-news__image {
-    height: 207px;
-}
-.sidebar-filter {
-	padding-bottom: 25px;
-}
+		padding-bottom: 25px;
+	}
+	.education {
+		padding-top: 23px;
+	}
+	.link-external {
+		font-size: 16px;
+	}
+	.link-external i {
+		margin-left: 15px;
+	}
+	.partners-block {
+		padding: 25px;
+	}
+	.title-simple {
+		font-size: 18px;
+		line-height: 23px;
+		margin-bottom: 12px;
+	}
+	.partners-page .title-section {
+		padding-bottom: 25px;
+	}
+	.article .list-tags a {
+		font-size: 14px;
+		padding: 2px 11px;
+	}
+	.item-installation {
+		margin-bottom: 20px;
+	}
+	.installation .title-section {
+		padding-bottom: 15px;
+	}
+	.news-page .title-news {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.news-page .item-news__content {
+		padding: 20px;
+	}
+	.news-page .item-news__image {
+		height: 207px;
+	}
+	.sidebar-filter {
+		padding-bottom: 25px;
+	}
+
+	.laboratory .tab-container-main {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	.container_page .slider-publications .title-news {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.container_page .slider-publications .item-publication__image {
+		height: 235px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -2258,33 +2302,32 @@
 		padding: 15px;
 	}
 	.article .list-tags a {
-    font-size: 12px;
-    padding: 2px 10px;
-}
-.breadcrumbs li::after {
-	margin: 0 6px;
-}
-.installation-block {
-	padding: 15px;
-}
-.installation-block__image {
-    height: 290px;
-    }
-    .feature-installation {
-    font-size: 14px;
-    line-height: 23px;
-    margin-top: 15px;
-}
-.feature-installation i {
-	top: 4px;
-}
-.article .slider-sertificats {
-	margin-top: 15px;
-}
-
-.sidebar-filter {
-	padding-bottom: 25px;
-}
+		font-size: 12px;
+		padding: 2px 10px;
+	}
+	.breadcrumbs li::after {
+		margin: 0 6px;
+	}
+	.installation-block {
+		padding: 15px;
+	}
+	.installation-block__image {
+		height: 290px;
+	}
+	.feature-installation {
+		font-size: 14px;
+		line-height: 23px;
+		margin-top: 15px;
+	}
+	.feature-installation i {
+		top: 4px;
+	}
+	.article .slider-sertificats {
+		margin-top: 15px;
+	}
+	.sidebar-filter {
+		padding-bottom: 25px;
+	}
 }
 
 /* Custom, iPhone Retina */

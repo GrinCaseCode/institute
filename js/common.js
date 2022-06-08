@@ -408,6 +408,7 @@ $(".sidebar-filter__more .link-page").click(function(e) {
 		$('.tab-container-main .slider-two').slick('refresh');
 		$('.tab-container-main .slider-three').slick('refresh');
 		$('.tab-container-main .slider-programs').slick('refresh');
+		$('.tab-container-main .slider-publications').slick('refresh');
 	});
 
 	$('.btn-tab').click(function(event) {
